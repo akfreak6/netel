@@ -3,7 +3,7 @@
   -webkit-box-align: center;
   align-items: center;
   -webkit-box-flex: 1;
-  min-height: 100vh;
+  min-height: 80vh;
   flex: auto;
   margin: 0 6rem;
 }

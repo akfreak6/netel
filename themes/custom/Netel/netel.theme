@@ -25,6 +25,12 @@ function netel_theme_suggestions_form_alter(array &$suggestions, array $variable
   function netel_theme_suggestions_menu_local_tasks_alter(array &$suggestions, array $variables) {
     $suggestions[] = 'menu_local_tasks__'.'netel';
   }
+  function netel_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+    $suggestions[] = 'page__'.'netel';
+  }
+  function netel_theme_suggestions_ds_3col_stacked_fluid_alter(array &$suggestions, array $variables) {
+    $suggestions[] = 'ds_3col_stacked_fluid__'.'netel';
+  }
 function netel_preprocess(array &$variables, $hook) {
   $variables['base_path_success'] = 'https://'.$_SERVER['HTTP_HOST'];
 }
