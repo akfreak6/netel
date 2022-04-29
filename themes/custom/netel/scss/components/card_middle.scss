@@ -1,0 +1,111 @@
+@import './../abstracts/variable';
+
+
+.card-middle {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-flex: 1;
+    min-height:80vh;
+            /* flex: auto; */
+        margin: 7rem 8rem 0rem 10rem;
+  }
+  @media only screen and (max-width:1293px) {
+    .card-middle{
+      display: flex;
+      flex-direction: column;
+      margin-top: 10rem;
+    }
+  }
+  
+.card-middle-one {
+  flex: 50%;
+  width: 10rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding: 1px 0rem 1px 1px;
+  background-color: $black-c;
+  -webkit-box-flex: 1;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: "Lato",Arial,Helvetica,sans-serif;
+}
+@media only screen and (max-width:1293px) {
+  .card-middle-one{
+  flex-direction: column;
+  width: auto;
+  position: relative;
+  }
+}
+  
+  .card-middle-one-body {
+    background: white;
+    display: block;
+  }
+  
+  /* //dcec cedddddddddddddddddddddddddddddddddddddddddddddddddddddd*/
+  .card-middle-two {
+    flex: 50%;
+    width: 49rem;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    padding: 1.25rem 0;
+    background-color: $white-c;
+    -webkit-box-flex: 1;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 8px;
+    font-family: "Lato",Arial,Helvetica,sans-serif;
+  }
+  @media only screen and (max-width:1293px) {
+    .card-middle-two{
+    flex-direction: column;
+    width: auto;
+    position: relative;
+    }
+  }
+    
+    .card-middle-two-body {
+      background: white;
+      display: block;
+    }
+    
+    .card-middle-two-title{
+      font-family: "Lato",Arial,Helvetica,sans-serif;
+      font-size: 1.8rem;
+      font-style: bold;
+    }
+    .card-middle-two-text p{
+      font-family: "Lato",Arial,Helvetica,sans-serif;
+      font-size: .8rem;
+      font-style: bold;
+    }
+    .card-middle-two-title,
+    .card-middle-two-text p{
+      color: $white-c;
+      margin: 1rem 2rem;
+    }
+  .card-middle-image img{
+    max-width: 100%;
+    height:auto;
+  }
+  
+  .learn-more{
+    height:3rem;
+    width:8rem;
+    background-color:transparent;
+    border:1px solid $white-c;
+    color:$white-c;
+    text-align: center;
+    display: table;
+    position: relative;
+    margin: 2rem;
+  }
+  .learn-more-content{
+    vertical-align: middle;
+    display: table-cell;
+    vertical-align: middle;
+    flex-direction: column;
+  }
+  /*# sourceMappingURL=main.css.map */

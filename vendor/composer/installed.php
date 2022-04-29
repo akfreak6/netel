@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '9a2fb8edcc3ead0d3ed13a5a665322fb4fb4957d',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -701,12 +701,12 @@
             ),
         ),
         'drupal/legacy-project' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '9a2fb8edcc3ead0d3ed13a5a665322fb4fb4957d',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -883,6 +883,24 @@
                 0 => '9.3.12',
             ),
         ),
+        'drupal/svg_formatter' => array(
+            'pretty_version' => '2.0.1',
+            'version' => '2.0.1.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/svg_formatter',
+            'aliases' => array(),
+            'reference' => '2.0.1',
+            'dev_requirement' => false,
+        ),
+        'drupal/svg_image' => array(
+            'pretty_version' => '1.16.0',
+            'version' => '1.16.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/svg_image',
+            'aliases' => array(),
+            'reference' => '8.x-1.16',
+            'dev_requirement' => false,
+        ),
         'drupal/syslog' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -949,6 +967,15 @@
                 0 => '9.3.12',
             ),
         ),
+        'drupal/views_bootstrap' => array(
+            'pretty_version' => '4.3.0',
+            'version' => '4.3.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/views_bootstrap',
+            'aliases' => array(),
+            'reference' => '8.x-4.3',
+            'dev_requirement' => false,
+        ),
         'drupal/views_ui' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -992,6 +1019,15 @@
             'install_path' => __DIR__ . '/../enlightn/security-checker',
             'aliases' => array(),
             'reference' => '196bacc76e7a72a63d0e1220926dbb190272db97',
+            'dev_requirement' => false,
+        ),
+        'enshrined/svg-sanitize' => array(
+            'pretty_version' => '0.15.4',
+            'version' => '0.15.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../enshrined/svg-sanitize',
+            'aliases' => array(),
+            'reference' => 'e50b83a2f1f296ca61394fe88fbfe3e896a84cf4',
             'dev_requirement' => false,
         ),
         'grasmash/expander' => array(
@@ -1156,8 +1192,8 @@
         'psr/container-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0',
-                1 => '^1.0',
+                0 => '^1.0',
+                1 => '1.0',
             ),
         ),
         'psr/event-dispatcher-implementation' => array(
